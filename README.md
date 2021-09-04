@@ -8,12 +8,12 @@ information about the token and messages to different Slack channels.
 1. You need to first install Go and set up a Go workspace.
 2. Clone the repo:
 
- ```
+ ```shell
  git clone https://github.com/kristina-makarenko/slacksender.git
  ```
 
 3. Sign up for Slack and create a workspace
-4. Create channels "test1", "test2", "test3" and create a bot in Slack
+4. Create channels `test1`, `test2`, `test3` and create a bot in Slack
 5. Copy `message-example.json` file to `message.json` with updating bot token:
 
  ```json
